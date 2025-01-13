@@ -278,6 +278,10 @@ body .footer__social {
     color: #44ffa1;
     transition: color 0.3s ease;
   }
+  a:focus {
+    outline: 3px dashed #44ffa1;
+    outline-offset: 4px;
+  }
   body .header nav {
     padding: 56px 165px 0;
   }

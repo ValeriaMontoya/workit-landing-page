@@ -1,7 +1,7 @@
 // Colors
 $dark-purple: #24053e;
 $davys-grey: #584d62;
-$eucaplyptus: #44ffa1;
+$eucalyptus: #44ffa1;
 $ghost-white: #fcf8ff;
 $white: #ffffff;
 
@@ -47,7 +47,7 @@ $body-line-height: 1.75rem;
 }
 
 .underline {
-  border-bottom: 3px solid $eucaplyptus;
+  border-bottom: 3px solid $eucalyptus;
 }
 
 .button {
@@ -58,7 +58,7 @@ $body-line-height: 1.75rem;
   display: inline-block;
   &--primary {
     color: $dark-purple;
-    background-color: $eucaplyptus;
+    background-color: $eucalyptus;
     padding: 14px 24px;
   }
   &--secondary {
@@ -332,15 +332,20 @@ body {
     line-height: $body-line-height;
     letter-spacing: -0.18px;
     &--primary:hover {
-      color: $eucaplyptus;
+      color: $eucalyptus;
       background-color: $dark-purple;
       padding: 12px 22px;
-      border: 2px solid $eucaplyptus;
+      border: 2px solid $eucalyptus;
     }
     &--secondary:hover {
-      color: $eucaplyptus;
+      color: $eucalyptus;
       transition: color 0.3s ease;
     }
+  }
+
+  a:focus {
+    outline: 3px dashed $eucalyptus;
+    outline-offset: 4px;
   }
 
   body {
